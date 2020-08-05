@@ -84,7 +84,7 @@ EXTRA_DIST = floating_fudge.h \
 
 AM_CPPFLAGS = -I$(top_builddir)
 
-lib_LTLIBRARIES = libspandsp.la
+noinst_LTLIBRARIES = libspandsp.la
 
 if COND_V32BIS
 V32BIS_SOURCES = v32bis.c
